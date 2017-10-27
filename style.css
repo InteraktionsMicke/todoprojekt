@@ -1,0 +1,121 @@
+body {
+    padding-top: 40px;
+    background: #282828;
+    color:white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+
+.listHead {
+    padding-left:24px;    
+}
+
+.listHead p {
+    float:left;
+    font-weight: 700;
+}
+
+
+.unfinishedList {
+    padding-top: 40px;
+    //border: 1px solid red;
+}
+
+.unfinishedList h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.todo {
+    float:left;
+}
+
+.createdBy{
+    margin-left: 5px;
+}
+
+.listRow {
+    padding:10px;
+}
+
+.listRow p {
+    margin-top: 20px;
+}
+
+.listRow form {
+    display:inline;
+    margin-left: 20px;
+    float:right;
+}
+
+input[type=submit] {
+    width: 10em;  height: 4em;
+    background-color: #e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input[type=text] {
+    color:black;
+}
+
+.underline {
+    border-bottom: 1px solid #323131;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.finishedList {
+    padding-top: 40px;
+    }
+
+.finishedList h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+h3{
+    text-align: center;
+}
+
+.addPost {
+
+    border:1px solid black;
+    padding: 40px;
+    background: #323131;
+}
+
+.addPost input[type=submit]{
+    float:right;
+}
+
+
+.form-inline {
+    float:left;
+
+}
+
+.clear {
+    clear: both;
+}
